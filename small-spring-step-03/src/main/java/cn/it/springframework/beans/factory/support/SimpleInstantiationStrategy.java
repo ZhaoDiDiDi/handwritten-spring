@@ -6,6 +6,9 @@ import cn.it.springframework.beans.factory.config.BeanDefinition;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+/**
+ * JDK 实例化
+ */
 @SuppressWarnings({"rawtypes"})
 public class SimpleInstantiationStrategy implements InstantiationStrategy {
 

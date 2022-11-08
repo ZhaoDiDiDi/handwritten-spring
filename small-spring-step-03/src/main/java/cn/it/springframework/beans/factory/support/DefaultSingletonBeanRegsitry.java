@@ -22,7 +22,7 @@ public class DefaultSingletonBeanRegsitry implements SingletonBeanRegistry {
      * @param beanName
      * @param singletonObject
      */
-    protected void addSingleton(String beanName, Object singletonObject) {
+    protected void registerSingleton(String beanName, Object singletonObject) {
         singletonObjects.put(beanName, singletonObject);
     }
 }
