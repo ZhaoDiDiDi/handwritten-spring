@@ -1,8 +1,8 @@
 package test.java.cn.it.spirngframework.test;
 
-import main.java.cn.it.springframework.beans.BeansException;
-import main.java.cn.it.springframework.beans.factory.config.BeanDefinition;
-import main.java.cn.it.springframework.beans.factory.support.DefaultListableBeanFactory;
+import cn.it.springframework.beans.BeansException;
+import cn.it.springframework.beans.factory.config.BeanDefinition;
+import cn.it.springframework.beans.factory.support.DefaultListableBeanFactory;
 import test.java.cn.it.spirngframework.test.bean.UserService;
 
 public class ApiTest {

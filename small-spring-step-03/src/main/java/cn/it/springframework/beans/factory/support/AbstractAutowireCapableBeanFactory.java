@@ -1,12 +1,12 @@
-package main.java.cn.it.springframework.beans.factory.support;
+package cn.it.springframework.beans.factory.support;
 
-import main.java.cn.it.springframework.beans.BeansException;
-import main.java.cn.it.springframework.beans.factory.config.BeanDefinition;
+import cn.it.springframework.beans.BeansException;
+import cn.it.springframework.beans.factory.config.BeanDefinition;
 
 /**
  * 实例化Bean类
  */
-public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory{
+public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
     @Override
     protected Object createBean(String beanName, BeanDefinition beanDefinition) throws BeansException {
         Object bean = null;

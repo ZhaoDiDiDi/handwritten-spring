@@ -1,4 +1,4 @@
-package main.java.cn.it.springframework.beans;
+package cn.it.springframework.beans;
 
 /**
  * 定义bean异常

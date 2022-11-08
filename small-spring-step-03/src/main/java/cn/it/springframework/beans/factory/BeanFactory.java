@@ -1,8 +1,5 @@
-package main.java.cn.it.springframework.beans.factory;
-import main.java.cn.it.springframework.beans.BeansException;
-
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+package cn.it.springframework.beans.factory;
+import cn.it.springframework.beans.BeansException;
 
 public interface BeanFactory {
 

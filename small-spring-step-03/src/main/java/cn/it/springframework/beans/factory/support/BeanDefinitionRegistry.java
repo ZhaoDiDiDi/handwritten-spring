@@ -1,6 +1,6 @@
-package main.java.cn.it.springframework.beans.factory.support;
+package cn.it.springframework.beans.factory.support;
 
-import main.java.cn.it.springframework.beans.factory.config.BeanDefinition;
+import cn.it.springframework.beans.factory.config.BeanDefinition;
 
 public interface BeanDefinitionRegistry {
 

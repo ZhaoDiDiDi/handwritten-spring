@@ -1,7 +1,7 @@
-package main.java.cn.it.springframework.beans.factory.support;
+package cn.it.springframework.beans.factory.support;
 
-import main.java.cn.it.springframework.beans.BeansException;
-import main.java.cn.it.springframework.beans.factory.config.BeanDefinition;
+import cn.it.springframework.beans.BeansException;
+import cn.it.springframework.beans.factory.config.BeanDefinition;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,5 +26,10 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
             throw new BeansException("No bean name '" + beanName + "' is defined");
         }
         return beanDefinition;
+    }
+
+    @Override
+    public Object getBean(String name, Object... args) throws BeansException {
+        return null;
     }
 }

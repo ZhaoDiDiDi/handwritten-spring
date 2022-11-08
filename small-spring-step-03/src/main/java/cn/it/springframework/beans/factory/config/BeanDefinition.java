@@ -1,4 +1,4 @@
-package main.java.cn.it.springframework.beans.factory.config;
+package cn.it.springframework.beans.factory.config;
 
 @SuppressWarnings({"rawtypes"})
 public class BeanDefinition {

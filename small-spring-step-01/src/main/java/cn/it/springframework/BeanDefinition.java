@@ -1,4 +1,4 @@
-package java.cn.it.springframework;
+package cn.it.springframework;
 
 public class BeanDefinition {
 

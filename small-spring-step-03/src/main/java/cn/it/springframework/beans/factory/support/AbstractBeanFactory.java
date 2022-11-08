@@ -1,8 +1,8 @@
-package main.java.cn.it.springframework.beans.factory.support;
+package cn.it.springframework.beans.factory.support;
 
-import main.java.cn.it.springframework.beans.BeansException;
-import main.java.cn.it.springframework.beans.factory.BeanFactory;
-import main.java.cn.it.springframework.beans.factory.config.BeanDefinition;
+import cn.it.springframework.beans.BeansException;
+import cn.it.springframework.beans.factory.BeanFactory;
+import cn.it.springframework.beans.factory.config.BeanDefinition;
 
 /**
  * 抽象类定义模板方法
