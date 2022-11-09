@@ -1,13 +1,14 @@
-package test.java.cn.it.spirngframework.test;
+package cn.it.spirngframework.test;
 
 import cn.it.springframework.beans.BeansException;
 import cn.it.springframework.beans.factory.config.BeanDefinition;
 import cn.it.springframework.beans.factory.support.DefaultListableBeanFactory;
-import test.java.cn.it.spirngframework.test.bean.UserService;
+import cn.it.spirngframework.test.bean.UserService;
+import org.junit.Test;
 
 public class ApiTest {
 
-    // @Test
+    @Test
     public void test() throws BeansException {
         // 1.初始化 BeanFactory
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
